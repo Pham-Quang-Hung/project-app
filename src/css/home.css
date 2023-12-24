@@ -1,0 +1,53 @@
+/* Thiết lập style cho đối tượng div chứa thông tin tài khoản */
+.top-left {
+    float: left;
+    width: 40%;
+  }
+  
+  /* Thiết lập style cho phần chứa thông tin tài khoản */
+  .account-info {
+    background-color: #1c1b1b;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  /* Style cho tiêu đề "Thông Tin" */
+  .account-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Style cho danh sách thông tin tài khoản */
+  .account-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .account-info li {
+    margin-bottom: 5px;
+  }
+  
+  /* Thiết lập style cho đối tượng div chứa tên và hình ảnh đại diện */
+  .top-center {
+    float: left;
+    width: 60%;
+  }
+  
+  /* Style cho tên người dùng */
+  .top-center h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Style cho hình ảnh đại diện */
+  .top-center img {
+    width: 100px; /* Đặt chiều rộng theo mong muốn */
+    height: 100px; /* Đặt chiều cao theo mong muốn */
+    border-radius: 50%; /* Làm tròn hình ảnh */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị biến đổi hình dạng */
+  }
+  
+  /* Thiết lập style cho đối tượng div chứa toàn bộ thông tin */
+  div {
+    overflow: hidden; /* Ngăn chặn lòi ra khỏi khung cha */
+    margin-bottom: 20px;
+  }
+  
